@@ -12,9 +12,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
   </head>
-  <body class="w-11/12 mx-auto">
+  <body class="">
     <!-- this is  navbar -->
-    <nav>
+    <nav class="w-11/12 mx-auto">
       <div class="flex items-center justify-between">
         <!-- icon -->
         <div>
@@ -34,7 +34,7 @@
     </nav>
 
     <!-- banner -->
-    <section class="mt-10">
+    <section class="mt-10 w-11/12 mx-auto">
       <div
         class="flex flex-col-reverse lg:flex-row justify-between items-center space-y-5">
         <!-- text -->
@@ -60,7 +60,7 @@
     </section>
 
     <!-- cart section -->
-    <section class="mt-10">
+    <section class="mt-10 w-11/12 mx-auto">
       <div class="text-center">
         <h1 class="text-3xl md:text-4xl font-bold">
           <span class="text-[#E95A08]">Our </span> Plants
@@ -152,7 +152,7 @@
     <section></section>
 
     <!-- Latest  Deals -->
-    <section class="mt-10">
+    <section class="mt-10 w-11/12 mx-auto">
       <div class="text-center">
         <h1 class="text-3xl md:text-4xl font-bold">
           <span class="text-[#E95A08]"> Latest </span> Deals
@@ -166,8 +166,8 @@
 
       <div class="md:flex gap-3 space-y-3">
         <div class="space-y-5">
-          <div class="relative ">
-             <div class="absolute inset-0 bg-black/40 rounded-2xl"></div>
+          <div class="relative">
+            <div class="absolute inset-0 bg-black/40 rounded-2xl"></div>
             <div class="absolute ml-24 mt-20 text-white font-bold text-center">
               <p>60% Off | Bloom Plant</p>
               <button>Shop Now</button>
@@ -175,7 +175,7 @@
             <img class="rounded-2xl" src="./assets/deal-bloom.png" alt="" />
           </div>
           <div class="relative">
-             <div class="absolute inset-0 bg-black/40 rounded-2xl"></div>
+            <div class="absolute inset-0 bg-black/40 rounded-2xl"></div>
             <div class="absolute ml-24 mt-20 text-white font-bold text-center">
               <p>30% Off | Ana Plant</p>
               <button>Shop Now</button>
@@ -184,8 +184,9 @@
           </div>
         </div>
         <div class="relative">
-             <div class="absolute inset-0 bg-black/40 rounded-2xl"></div>
-          <div class="absolute ml-24 md:ml-56 mt-28 md:mt-52 text-white font-bold text-center  text-xl md:text-3xl">
+          <div class="absolute inset-0 bg-black/40 rounded-2xl"></div>
+          <div
+            class="absolute ml-24 md:ml-56 mt-28 md:mt-52 text-white font-bold text-center text-xl md:text-3xl">
             <p>25% Off | Zabo Plant</p>
             <button>Shop Now</button>
           </div>
@@ -195,7 +196,19 @@
     </section>
 
     <!-- input section -->
-    <section></section>
+    <section class="mt-10">
+      <div class="h-[200px] md:h-[500px] relative">
+        <div class="absolute inset-0 bg-black/10 rounded-2xl"></div>
+          <div class="absolute ml-16 mt-10 md:ml-[420px] md:mt-48 text-white font-bold text-center">
+              <p class="text-xl md:text-4xl">Join the colorful Bunch</p>
+              <div class="flex mt-2">
+                <input class="text-black  bg-white px-2 py-1 md:px-5 md:py-2" type="text" placeholder="Write Email ">
+                <button class="bg-[#E95A08] px-2 py-1 md:px-5 md:py-2">Subscribe</button>
+              </div>
+            </div>
+        <img src="./assets/news-letter-bg.png" alt="" />
+      </div>
+    </section>
 
     <!-- footer -->
     <footer></footer>
